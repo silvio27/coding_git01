@@ -11,10 +11,19 @@
 	</head>
 	<body>
 		<div id="app">
-			<el-button @click="visible = true">Button</el-button>
-			<el-dialog :visible.sync="visible" title="Hello world">
-				<p>Try Element</p>
-			</el-dialog>
+			<div style="border: 0px solid red;">
+				<div style="width: 100%; margin: 50px auto;text-align: center;">
+					<el-button @click="visible = true" type="primary">Button</el-button>
+					<el-dialog :visible.sync="visible" title="Hello world">
+						<p>Try Element</p>
+					</el-dialog>
+				</div>
+
+			</div>
+			<br>
+
+
+
 		</div>
 	</body>
 	<!-- <script src="https://unpkg.com/vue/dist/vue.js"></script> -->
